@@ -1,0 +1,29 @@
+#hciconfig
+
+#hciconfig hci0 up
+
+#mknod /dev/rfcomm0 c 216 1
+
+#chmod 666 /dev/rfcomm0
+
+#sdptool add --channel=1 SP
+
+#rfcomm bind /dev/rfcomm0 00:15:83:E6:72:DB 1
+
+#echo '00:15:83:E6:72:DB 1234' > /var/lib/bluetooth/00\:15\:83\:E6\:72\:DB/pincodes
+
+
+
+
+
+web link ::
+
+ http://www.heatxsink.com/entry/how-to-pair-a-bluetooth-device-from-command-line-on-linux
+
+http://blog.float.tw/2013/01/linux-connect-bluetooth-device-with-spp.html
+
+https://books.google.com.tw/books?id=RHq8BQAAQBAJ&pg=PA374&lpg=PA374&dq=beaglebone+bluetooth+pair&source=bl&ots=NAdTRMJ0S6&sig=-70cdAyvBrevvCn_oheC3Av8Tzw&hl=zh-TW&sa=X&ved=0ahUKEwiu6sqwgpPOAhUDjJQKHQ7gCJI4ChDoAQgpMAI#v=onepage&q=beaglebone%20bluetooth%20pair&f=false
+
+https://books.google.com.tw/books?id=RHq8BQAAQBAJ&pg=PA373&lpg=PA373&dq=beaglebone+rfcomm&source=bl&ots=NAdTQVQ9S7&sig=bDcwctH2d9FuBuOePGSMO5tOl8A&hl=zh-TW&sa=X&ved=0ahUKEwjf0PDH-pLOAhWKkpQKHRNuB3Q4ChDoAQgqMAI#v=onepage&q=beaglebone%20rfcomm&f=false
+
+
